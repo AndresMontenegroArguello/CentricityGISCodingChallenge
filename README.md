@@ -3,7 +3,7 @@
 
 ## Introduction
 
-Welcome to Centricity GIS. This coding challenge will consist of creating a console application for processing a batch of AMS (Asset Management System) Tickets in XML format to send them as Work Orders to Cityworks via API and save the corresponding records in our Database.
+Welcome to Centricity GIS. This coding challenge will consist of creating a console application for processing a batch of AMS (Asset Management System) Tickets in XML format to send them as Work Orders to Cityworks via API and save the corresponding records in our Database. Send your solution compressed in a ZIP file to andres@centricitygis.com.
 
 ## Guidelines
 
@@ -22,6 +22,7 @@ Welcome to Centricity GIS. This coding challenge will consist of creating a cons
  - Special characters forbidden in XML such as ampersand (&) may also be present in the ticket, you need to properly handle this case (Preserving the ampersand in the results).
  - The correct date format uses dashes as separator (2021-10-11T08:05:22), so any different format (e.g. /) will have to be converted before processing.
  - The centroid field will need to be calculated using the X, Y coordinates.
+ - Send your solution compressed in a ZIP file to andres@centricitygis.com.
 
 ## XML Tickets
 
