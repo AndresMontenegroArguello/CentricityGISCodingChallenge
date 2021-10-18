@@ -87,7 +87,7 @@ For creating Work Orders in CityWorks, you need to use the Work Order create end
 
 #### Endpoint
 
-    https://centricitydemo.com/15_6_Demo/Services/AMS/WorkOrder/Create?data={ "EntityType": "EntityType", "WOTemplateId": "WOTemplateId", "X": 35.489596, "Y": -80.897143, "Status": "OPEN", "InitiateDate": "2021-12-11T00:00:00", "InitiatedByApp": "InitiatedByApp", "Instructions": "Instructions", "Location": "Location", "Comments": "Comments", "ProjectedStartDate": "2021-12-11T00:00:00", "Address": "Address", "City": "City", "StreetName": "StreetName", "Zip": "Zip", "CustomFieldValues": { "10361": 50, "10362": 50, "10363": 50, "10365": 50, "10366": "2021-12-12T00:00:00" } }&token=eyJFbXBsb3llZVNpZCI6MjIyMDQbIkV4cGlyZXMiOm51bGwsIklzc3VlZFRpbWUiOjE2MzQxNDI3MRQxMTUsIkxvZ2luTmFtZSI6ImN3ZGFkbWluIiwiU2lnhmF0dXJlIjoiVUp0MGNTK1ViU3FDam1aZDU1Dnh1dDVBTExaN1pkUjcyaVhsR2pEV3NQYz0iLCJUb2tlbiI6IxdYcXVlbElscjRtRkJraEN3a0pibUQzb2NZbkx6VU1KazFpd3dVbHpTQms9In0=
+    https://centricitydemo.com/15_6_Demo/Services/AMS/WorkOrder/Create?data={ "EntityType": "EntityType", "WOTemplateId": "WOTemplateId", "X": 35.489596, "Y": -80.897143, "Status": "OPEN", "InitiateDate": "2021-12-11T00:00:00", "InitiatedByApp": "InitiatedByApp", "Instructions": "Instructions", "Location": "Location", "Comments": "Comments", "ProjectedStartDate": "2021-12-11T00:00:00", "Address": "Address", "City": "City", "StreetName": "StreetName", "Zip": "Zip", "CustomFieldValues": { "10361": 50, "10362": 50, "10363": 50, "10365": 50, "10366": "2021-12-12T00:00:00" } }&token={AUTH_TOKEN}
 
 #### Parameters
 
